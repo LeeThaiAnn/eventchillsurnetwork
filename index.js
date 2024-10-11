@@ -13,7 +13,7 @@ client.on('interactionCreate', async interaction => {
     if (commandName === 'thamgiaevent') {
         const tenIngame = interaction.options.getString('teningame');
 
-        const channelToSend = client.channels.cache.get('ID_KÊNH_CẦN_GỬI'); // Thay ID_KÊNH_CẦN_GỬI bằng ID của kênh đích
+        const channelToSend = client.channels.cache.get('1291644635688599603 '); // Thay ID_KÊNH_CẦN_GỬI bằng ID của kênh đích
         if (channelToSend.type === ChannelType.GuildText) {
             const webhook = await channelToSend.createWebhook(tenIngame, {
                 avatar: 'https://minecraftvn.net/favicon.ico ', // Tùy chỉnh avatar nếu cần
