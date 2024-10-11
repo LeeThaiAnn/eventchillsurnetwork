@@ -1,0 +1,12 @@
+{
+  "name": "even-chillsur",
+  "version": "1.0.0",
+  "description": "Discord bot tham gia event",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  }
+}
