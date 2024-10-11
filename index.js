@@ -46,7 +46,7 @@ const commands = [
   },
 ];
 
-const rest = new REST({ version: '10' }).setToken('process.env.TOKEN');
+const rest = new REST({ version: '10' }).setToken('MTI5NDI1NjU1MzYwMzM2NjkzMg.G7xZT3.vPoNW5G6ETPY4aLiKoDM-U6kmssH9FnWDTiOPg');
 
 (async () => {
   try {
@@ -63,4 +63,4 @@ const rest = new REST({ version: '10' }).setToken('process.env.TOKEN');
   }
 })();
 
-client.login('process.evn.TOKEN');
+client.login('MTI5NDI1NjU1MzYwMzM2NjkzMg.G7xZT3.vPoNW5G6ETPY4aLiKoDM-U6kmssH9FnWDTiOPg');
